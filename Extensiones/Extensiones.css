@@ -1,0 +1,135 @@
+h1.centro {
+  text-align: center;
+  font-size: 36px;
+  font-family: monospace;
+}
+
+h1.derecha {
+  text-align: right;
+  font-size: 36px;
+  font-family: monospace;
+}
+
+h1.izquierda {
+  text-align:left;
+  font-size: 36px;
+  font-family: monospace;
+}
+
+h2.centro {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+h2.derecha {
+  text-align: right;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+h2.izquierda {
+  text-align:left;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+h3.centro {
+  text-align: center;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+h3.derecha {
+  text-align: right;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+h3.izquierda {
+  text-align:left;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+p.centro {
+  text-align: center;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+p.derecha {
+  text-align: right;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+p.izquierda {
+  text-align: left;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0a1d69;
+    padding: 25px 0;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    background-color: #555555;
+  }
+  
+  /* Ajustar el contenido para que no se solape con el menú */
+  #inicio, #productos, #blog, #mas {
+    padding-top: 60px; /* Altura del menú */
+  }
+  
+  .auth-buttons {
+    position: absolute;
+    top: 0;
+    right: 20px; /* Ajusta el valor según tu diseño */
+  }
+  
+  .auth-buttons a {
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px; /* Espacio entre los botones */
+  }
+  
+  .auth-buttons a:hover {
+    background-color: #0056b3;
+  }
+  
