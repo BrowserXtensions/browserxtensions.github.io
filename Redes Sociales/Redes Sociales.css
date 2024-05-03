@@ -87,9 +87,20 @@ body {
 }
 
 footer {
-  background-color: #333;
+  background-color: #00787a;
   color: #fff;
-  padding: 50px 0;
+  padding: 30px 0;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff; /* Línea que indica que es un enlace */
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  border-bottom: 1px solid #fff; /* Mantener la línea visible en hover y enfoque */
 }
 
 .container {
@@ -131,5 +142,20 @@ footer {
   /* Ajustar el contenido para que no se solape con el menú */
   #inicio, #productos, #blog, #mas {
     padding-top: 60px; /* Altura del menú */
+  }
+  .auth-buttons {
+    position: absolute;
+    top: 0;
+    right: 20px; /* Ajusta el valor según tu diseño */
+  }
+  
+  .auth-buttons a {
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px; /* Espacio entre los botones */
   }
   
